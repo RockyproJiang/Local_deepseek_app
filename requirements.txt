@@ -1,0 +1,9 @@
+pip install -r requirements.txt
+requests>=2.28.0
+
+# 启动Ollama服务
+ollama serve
+
+# 下载DeepSeek模型（如果还没有）
+ollama pull deepseek-r1:8b
+
